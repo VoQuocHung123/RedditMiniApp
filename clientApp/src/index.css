@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ct-footer-container {
+  @apply flex justify-center items-center  bottom-0 right-0 left-0 border-[1px] border-gray-700 cursor-pointer bg-gray-700 mb-1 py-1;
+}
+.None{
+    @apply bg-red-500
+}
+.NSFW{
+    @apply bg-green-600
+}
+.Mood{
+    @apply bg-yellow-400
+}
+.Quotes{
+    @apply bg-orange-400
+}
+.Shitpost{
+    @apply bg-blue-500
+}
